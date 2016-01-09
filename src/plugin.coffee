@@ -6,7 +6,7 @@ module.exports = (options) ->
    defaults = 
       path: 'searchMeta.json'
       properties: ['title', 'date', 'author', 'tags', 'image', 'wordCount', 'readingTime', 'path']
-      pad: true
+      pad: false
 
    _.defaults options, defaults
 
@@ -15,7 +15,7 @@ module.exports = (options) ->
       post = {}
       for prop in options.properties
          post[prop] = file[prop]
-         if pad and !file[prop]
+         if options.pad and !file[prop]
            post[prop] = ''
 
       return post
