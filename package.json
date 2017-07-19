@@ -25,6 +25,7 @@
     "rimraf": "^2.4.0"
   },
   "dependencies": {
+    "json-stable-stringify": "^1.0.1",
     "lodash": "^3.9.3"
   }
 }
