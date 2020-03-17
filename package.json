@@ -20,12 +20,12 @@
   "devDependencies": {
     "chai": "^3.0.0",
     "coffee-script": "^1.9.3",
-    "metalsmith": "^1.7.0",
-    "mocha": "^2.2.5",
+    "metalsmith": "^2.3.0",
+    "mocha": "^4.1.0",
     "rimraf": "^2.4.0"
   },
   "dependencies": {
     "json-stable-stringify": "^1.0.1",
-    "lodash": "^3.9.3"
+    "lodash": "^4.17.15"
   }
 }
