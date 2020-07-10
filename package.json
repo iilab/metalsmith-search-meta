@@ -26,6 +26,6 @@
   },
   "dependencies": {
     "json-stable-stringify": "^1.0.1",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.16"
   }
 }
